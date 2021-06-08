@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KHB PORTAL</string>
+    <string name="about">about</string>
+    <string name="complaints">complaints</string>
+    <string name="foods">foods</string>
+    <string name="notifications">notifications</string>
+    <string name="booking_status">booking status</string>
+    <string name="packages">packages</string>
+    <string name="contacts">contacts</string>
+    <string name="feedback">feedback</string>
+    <string name="logout">logout</string>
+
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+</resources>

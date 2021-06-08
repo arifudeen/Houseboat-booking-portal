@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CED8C3"
+    android:orientation="vertical"
+    tools:context=".Contacts">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="43dp">
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="99dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="NAME"
+            android:textColor="#100F0F"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="EMERGENCY NUMBER"
+            android:textColor="#121111"
+            android:textStyle="bold" />
+
+    </TableRow>
+
+    <ListView
+        android:id="@+id/list2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
